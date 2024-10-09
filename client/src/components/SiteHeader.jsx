@@ -4,7 +4,7 @@ const SiteHeader = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-6">
-            <a href="index.html">
+            <a href="/">
               <img src="/static/images/logo.png" alt="logo" />
             </a>
           </div>

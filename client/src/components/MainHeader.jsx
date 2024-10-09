@@ -23,19 +23,19 @@ const MainHeader = () => {
               <div className="collapse navbar-collapse" id="site-nav-bar">
                 <ul className="nav navbar-nav">
                   <li className="active">
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="about.html">About</a>
+                    <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="shop.html">Shop</a>
+                    <a href="/shop">Shop</a>
                   </li>
                   <li>
-                    <a href="faq.html">FAQ</a>
+                    <a href="/faq">FAQ</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contacts">Contact</a>
                   </li>
                 </ul>
               </div>
