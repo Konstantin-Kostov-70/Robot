@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Shop from './pages/Shop'
 import Faq from './pages/Faq'
-import Contacts from './pages/Contacts'
+import Contact from './pages/Contact'
 
  const router = createBrowserRouter([
   {
@@ -23,8 +23,8 @@ import Contacts from './pages/Contacts'
     element: <Faq />
   },
   {
-    path: '/contacts',
-    element: <Contacts />
+    path: '/contact',
+    element: <Contact />
   }
 ])
 
