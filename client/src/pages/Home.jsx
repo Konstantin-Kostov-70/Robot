@@ -6,11 +6,17 @@ import Product from "../components/Product";
 import IntroHome from "../components/IntroHome";
 import History from "../components/History";
 import Partner from "../components/Partner";
-
+import { useEffect } from 'react';
+ 
 const Home = () => {
+  useEffect(() => {
+    if (window.initializeCarousel) {
+        window.initializeCarousel(); 
+    }
+  }, []); 
   return (
     <div>
-      <Head />
+      <Head title={'Robot'} />
       <SiteHeader />
       <MainHeader introContent={<IntroHome />} />
       <Product />
@@ -19,6 +25,7 @@ const Home = () => {
       <h1 id="home">Home Page</h1>
       <Footer />
     </div>
+    
   );
 };
 
