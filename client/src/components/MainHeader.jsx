@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import Nav from "./Nav";
 
-const MainHeader = ({ introContent }) => {
+const MainHeader = ({ introContent, additionalClasses = '' }) => {
   return (
     <>
-      <section id="header" className="main-header">
+      <section id="header" className={`main-header ${additionalClasses}`} >
         <div className="container">
           <Nav />
           <div className="intro row">
