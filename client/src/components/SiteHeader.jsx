@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom'
+
 const SiteHeader = () => {
   return (
     <div className="site-header-bg">
       <div className="container">
         <div className="row">
           <div className="col-sm-6">
-            <a href="/">
+            <Link to="/">
               <img src="/static/images/logo.png" alt="logo" />
-            </a>
+            </Link>
           </div>
           <div className="col-sm-3 col-sm-offset-3 text-right">
             <span className="ion-android-cart"></span> 0 products
