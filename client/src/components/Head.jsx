@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import { Helmet } from "react-helmet-async";
 
-const Head = () => {
+const Head = ({ title }) => {
   return (
     <Helmet>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Robot</title>
+      <title>{title}</title>
       <link
         href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700"
         rel="stylesheet"
