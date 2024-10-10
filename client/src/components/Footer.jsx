@@ -57,12 +57,6 @@ const Footer = () => {
   <footer className="footer text-center">
       <h3>&copy; Theme by <a href="https://themewagon.com/">Themewagon</a></h3>
   </footer>
-
-  <script src="/static/js/jquery-1.12.3.min.js"></script>
-  <script src="/static/js/bootstrap.min.js"></script>
-  <script src="/static/js/jquery.magnific-popup.min.js"></script>
-  <script src="/static/js/owl.carousel.min.js"></script>
-  <script src="/static/js/script.js"></script>
   </>
   )
 }
