@@ -16,7 +16,7 @@ const About = () => {
     <>
       <Head title={'Robot | About'} />
       <SiteHeader />
-      <MainHeader introContent={<IntroAbout />} additionalClasses="about-header inner-header" />
+      <MainHeader introContent={<IntroAbout link={'About'} />} additionalClasses="about-header inner-header" />
       <section className="about">
             <div className="container page-bgc">
                 <div className="row">
