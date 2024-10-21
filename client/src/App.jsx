@@ -4,6 +4,7 @@ import About from './pages/About'
 import Shop from './pages/Shop'
 import Faq from './pages/Faq'
 import Contact from './pages/Contact'
+import Register from './pages/Register'
 
  const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ import Contact from './pages/Contact'
   {
     path: '/contact',
     element: <Contact />
+  },
+  {
+    path: '/register',
+    element: <Register />
   }
 ])
 
