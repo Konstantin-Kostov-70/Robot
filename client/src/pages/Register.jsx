@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import Head from "../components/Head";
 import SiteHeader from "../components/SiteHeader";
 import MainHeader from "../components/MainHeader";
@@ -9,10 +10,12 @@ const Register = () => {
     <div>
         <Head title={'Robot | Register'} />
         <SiteHeader />
-        <MainHeader introContent={<IntroAbout link={'Register'} />} additionalClasses="contact-header inner-header" />
+        <MainHeader introContent={<IntroAbout link={'Register'} />} additionalClasses="register-header inner-header" />
         <section id="register" className="register">
             <div className="container page-bgc">
-                <h1>Register</h1>
+              <Link to="/login">
+                <h1> To Login</h1>
+              </Link>
             </div>
         </section>
         <Footer />
